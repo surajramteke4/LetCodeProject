@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [firefoxSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="FireFox(failed)">
+    <parameter name="BrowserName" value="FireFox"/>
+    <classes>
+      <class name="test.WorkSpace_Lebel_Display">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CheckworkSpaceLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.WorkSpace_Lebel_Display -->
+      <class name="test.LoginPage_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkLoginPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.LoginPage_Test -->
+      <class name="test.Workspace_Lebel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CheckworkSpaceLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.Workspace_Lebel -->
+    </classes>
+  </test> <!-- FireFox(failed) -->
+</suite> <!-- Failed suite [firefoxSuite] -->

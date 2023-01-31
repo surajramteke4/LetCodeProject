@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.DropDownSelectMultipleValues"/>
+      <class name="test.LoginPage_Test"/>
+      <class name="test.WorkSpace_Lebel_Display"/>
+      <class name="test.Alert_PromtAlert"/>
+      <class name="test.WebTable_Prices"/>
+      <class name="test.DataFromExcel"/>
+      <class name="test.WorkSpace_click_to_Go_on_testingPage"/>
+      <class name="test.Verify_SelectedDropDownSize"/>
+      <class name="test.Size_DropDownValue"/>
+      <class name="pom.DateProvider"/>
+      <class name="test.WebTable_PrintSpecificData"/>
+      <class name="test.ByDefaultText_DropDown"/>
+      <class name="test.Veirify_AlertShowsorNot"/>
+      <class name="test.Verify_MultipleWindows"/>
+      <class name="test.Verify_PopUpText_afterSelecting_DropDown"/>
+      <class name="test.PrintSelectedDropDownvalues"/>
+      <class name="test.Workspace_Lebel_GetText"/>
+      <class name="test.DropDownMultipleSelected"/>
+      <class name="test.GetDataFromExcel"/>
+      <class name="test.getText_fromInput_Label"/>
+      <class name="test.LoginData_DataProvider"/>
+      <class name="test.Alerts_With_Wait"/>
+      <class name="test.ImageDisplayed_EditLogo"/>
+      <class name="test.Login_withDataProvider_validation"/>
+      <class name="utility.TestBase"/>
+      <class name="test.WebTable_PrintAll_TableData"/>
+      <class name="test.Verify_AlertTextshowsorNot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

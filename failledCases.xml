@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="test.WebTable_Prices"/>
+    <class name="test.GetDataFromExcel"/>
+      <class name="test.ImageDisplayed_EditLogo"/>
+ <class name="test.WebTable_PrintAll_TableData"/>
+      <class name="test.Verify_AlertTextshowsorNot"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

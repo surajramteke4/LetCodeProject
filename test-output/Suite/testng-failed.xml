@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="utility.Listeners"/>
-  </listeners>
   <test thread-count="5" parallel="classes" name="Test(failed)">
-    <parameter name="BrowserName" value="chrome"/>
+    <parameter name="BrowserName" value="firefox"/>
     <classes>
-      <class name="test.LoginPage_Test">
+      <class name="test.WorkSpace_Lebel_Display">
         <methods>
           <include name="tearDown"/>
-          <include name="checkLoginPage"/>
+          <include name="CheckworkSpaceLabel"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- test.LoginPage_Test -->
+      </class> <!-- test.WorkSpace_Lebel_Display -->
+      <class name="test.LoginData_DataProvider">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CheckLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.LoginData_DataProvider -->
+      <class name="test.Slider_Funtionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ValidateSlider"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.Slider_Funtionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

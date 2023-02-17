@@ -20,7 +20,6 @@ public class Alert_PromtAlert extends TestBase
 		y.ClickOnDialogue();
 		POM_Alert z = new POM_Alert(driver);
 		z.clickonPromptAlert();
-		Thread.sleep(3000);
 		Alert alt = driver.switchTo().alert();
 		alt.sendKeys("Suraj");
 		alt.accept();

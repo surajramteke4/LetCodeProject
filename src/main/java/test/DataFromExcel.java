@@ -141,7 +141,7 @@ public class DataFromExcel  extends TestBase
 	@DataProvider(name = "LoginTestData")
 	public String[][] getData() throws IOException
 	{
-	String path = "./DataExel\\New Microsoft Excel Worksheet.xlsx//";
+	String path = "./DataExel\\New Microsoft Excel Worksheet.xlsx";
 	XLUtility xl = new XLUtility(path);
 	int totalrows = xl.getRowCount("Sheet1");
 	int totalcols = xl.getCellCount("Sheet1",1);

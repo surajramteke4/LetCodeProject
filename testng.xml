@@ -23,6 +23,7 @@
       <class name="test.DropDownMultipleSelected"/>
       <class name="test.GetDataFromExcel"/>
       <class name="test.getText_fromInput_Label"/>
+      <class name="test.Slider_Funtionality"/>
       <class name="test.LoginData_DataProvider"/>
       <class name="test.Alerts_With_Wait"/>
       <class name="test.ImageDisplayed_EditLogo"/>
